@@ -1,0 +1,58 @@
+[
+  {
+    'content': '',
+    'additional_kwargs': {},
+    'response_metadata': {},
+    'type': 'AIMessageChunk',
+    'name': None,
+    'id': 'run--9fe2f655-68f2-4418-adfc-493a8ecf2346',
+    'example': False,
+    'tool_calls': [],
+    'invalid_tool_calls': [],
+    'usage_metadata': {
+      'input_tokens': 266,
+      'output_tokens': 22,
+      'total_tokens': 288,
+      'input_token_details': {
+        'audio': 0,
+        'cache_read': 0
+      },
+      'output_token_details': {
+        'audio': 0,
+        'reasoning': 0
+      }
+    },
+    'tool_call_chunks': []
+  },
+  {
+    'created_by': 'system',
+    'run_attempt': 1,
+    'langgraph_version': '0.6.8',
+    'langgraph_api_version': '0.4.31',
+    'langgraph_plan': 'developer',
+    'langgraph_host': 'self-hosted',
+    'langgraph_api_url': 'http://127.0.0.1:2024',
+    'langgraph_auth_user_id': '',
+    'langgraph_request_id': '3f738578-fd6e-4949-afc9-65a8ef6f4915',
+    'run_id': '0199f53b-7feb-778f-8186-c781da376e5f',
+    'thread_id': 'd89671a7-eb35-484a-ae16-5c49f9564e5c',
+    'graph_id': 'agent',
+    'assistant_id': 'fe096781-5601-53d2-b2f6-0d3403f7e9ca',
+    'user_id': '',
+    'langgraph_step': 5,
+    'langgraph_node': 'agent',
+    'langgraph_triggers': [
+      'branch:to:agent'
+    ],
+    'langgraph_path': [
+      '__pregel_pull',
+      'agent'
+    ],
+    'langgraph_checkpoint_ns': 'agent:97b27d30-d913-6ac2-9912-37e0a92f4c99',
+    'checkpoint_ns': 'agent:97b27d30-d913-6ac2-9912-37e0a92f4c99',
+    'ls_provider': 'openai',
+    'ls_model_name': 'gpt-4o',
+    'ls_model_type': 'chat',
+    'ls_temperature': 1.0
+  }
+]
